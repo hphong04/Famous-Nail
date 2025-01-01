@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(228, 173, 191);
+}
+a {
+  font-size: 30px;
+  color: rgb(199, 52, 113);
+  text-shadow: 10px 5px 5px rgb(129, 179, 176);
+  font-style: italic;
+  position: relative;
+  left: 1000px;
+  margin: 0 20px;
+  text-decoration: none;
+}
+h3 {
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  font-style: italic;
+}
+th {
+  font-style: italic;
+  font-size: 40px;
+}
+td {
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+}

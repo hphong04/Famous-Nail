@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Appointment - Nail Shop</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Liên kết đến tệp CSS -->
+  </head>
+  <body>
+    <!-- Header -->
+    <a href="contact.html">Contact</a>
+    <a href="services.html">Services</a>
+    <a href="index.html">Home</a>
+    <a href="bool.html">Book Now</a>
+    <a
+      href="https://www.facebook.com/profile.php?id=100063588880634"
+      target="_blank"
+      >Fanpage
+    </a>
+
+    <header>
+      <div class="container">
+        <h1 style="font-style: italic">Welcome to Famous Nail</h1>
+        <p style="font-style: italic">Book your appointment now!</p>
+      </div>
+    </header>
+
+    <!-- Booking Form Section -->
+    <section class="booking-section">
+      <div class="container">
+        <h2>Book Your Appointment</h2>
+        <form action="#" method="POST">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Enter your phone number"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="service">Select Service</label>
+            <select id="service" name="service">
+              <option value="manicure">Manicure</option>
+              <option value="pedicure">Pedicure</option>
+              <option value="gel-nails">Gel Nails</option>
+              <option value="nail-art">Nail Art</option>
+              <option value="eyes-brown">Eyes brown</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="date">Select Date</label>
+            <input type="date" id="date" name="date" required />
+          </div>
+
+          <div class="form-group">
+            <label for="time">Select Time</label>
+            <input type="time" id="time" name="time" required />
+          </div>
+
+          <button type="submit">Book Appointment</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Nail Shop. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
